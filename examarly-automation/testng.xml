@@ -4,8 +4,6 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.examarly.HomePageWeb"/>
-      <class name="com.examarlyRewardsModule.RewardsWeb"/>
-      <class name="com.examarlyLogin.HomePageLoginWeb"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
