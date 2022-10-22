@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 7, Time elapsed: 152.421 s <<< FAILURE! - in TestSuite
+Landingpage(com.examarly.HomePageWeb)  Time elapsed: 147.865 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'Kishores-MacBook-Air.local', ip: 'fe80:0:0:0:18ae:31ec:933f:f97f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a8d92d9456c17fd7672a8bcee3edd110, findElement {using=xpath, value=(//img[@alt='examarly logo'])[12]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/w2/tnn1nt2x1x7...}, goog:chromeOptions: {debuggerAddress: localhost:51697}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51697/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a8d92d9456c17fd7672a8bcee3edd110
+	at com.examarly.HomePageWeb.Landingpage(HomePageWeb.java:63)
+
+setUp(com.examarlyRewardsModule.RewardsWeb)  Time elapsed: 0.167 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
+	at com.examarlyRewardsModule.RewardsWeb.setUp(RewardsWeb.java:18)
+
+setUp(com.examarlyLogin.HomePageLoginWeb)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
+	at com.examarlyLogin.HomePageLoginWeb.setUp(HomePageLoginWeb.java:21)
+

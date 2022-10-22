@@ -1,0 +1,10 @@
+com/examarly/QA_Pages/LandingPageWeb.class
+com/examarly/QA_Pages/AboutPageWeb.class
+com/examarly/QA_Pages/FAQPageWeb.class
+com/examarly/QA_Pages/BlogPageWeb.class
+com/examarly/utils/WAITS.class
+com/examarlyBaseClass/BaseclassWeb.class
+com/examarly/Login/RewardsModuleWeb.class
+com/examarly/QA_Pages/ContactUsPageWeb.class
+com/examarly/Login/LoginPageWeb.class
+com/examarlyBaseClass/BaseclassLoginPageWeb.class
